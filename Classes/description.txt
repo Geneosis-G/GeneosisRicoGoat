@@ -1,0 +1,67 @@
+Fighting for a Just Cause.
+
+After defeating the evil dictator of Panau and freed Medici form the army invaders, you are now on a holiday trip to visit Goat Cities!
+
+[b]Any question or problem to use this mod? [url=http://steamcommunity.com/sharedfiles/filedetails/?id=314929396]Click here to read the FAQ.[/url][/b]
+
+[b]FEATURES[/b]
+- Rico Rodrioat: You have a parachute, a wingsuit, a grappling hook and sticky mines.
+
+[b]KEYBOARD CONTROLS[/b]
+- [b][Space]:[/b] Press in the air to open/close the parachute.
+- [b][E]:[/b] Press in the air to open/close the wingsuit.
+- [b][RightClick]:[/b] Press and release immediately to drag yourself.
+- [b][RightClick]:[/b] Press on something and release something else to thether those things together.
+- [b][G]:[/b] Hold to stretch all your tethers.
+- [b][H]:[/b] Hold to extend all your tethers.
+- [b][G] + [H]:[/b] Break all your tethers.
+- [b][R]:[/b] Place a sticky mine.
+- [b][1]:[/b] Hold 1s to make all your mines explode.
+- [b][Ctrl]:[/b] Press without moving to toggle mines placement and explosion.
+
+[b]GAMEPAD CONTROLS[/b]
+- [b][A]:[/b] Press in the air to open/close the parachute.
+- [b][X]:[/b] Press in the air to open/close the wingsuit.
+- [b][LT]:[/b] Press and release immediately to drag yourself.
+- [b][LT]:[/b] Press on something and release something else to thether those things together.
+- [b][DPadLeft]:[/b] Hold to stretch all your tethers.
+- [b][DPadRight]:[/b] Hold to extend all your tethers.
+- [b][DPadLeft] + [DPadRight]:[/b] Break all your tethers.
+- [b][Y]:[/b] Place a sticky mine.
+- [b][LB]:[/b] Hold 1s to make all your mines explode.
+- [b][DPadDown]:[/b] Press without moving to toggle mines placement and explosion.
+
+[b]CHARACTERISTICS[/b]
+- You cannot use any of your equipments when ragdoll.
+- When the parachute is open, you will fall slowly.
+- When the wingsuit is open, you will fly faster if you go down and slower if you go up.
+- If you are too slow with wingsuit, the wingsuit will close automatically.
+- If you go really fast with wingsuit, speedlines will appear.
+- You cannot use grappling hook while the wingsuit is open.
+- When dragging yourself with grappling hook, you will hover until you reach your destination.
+- You can create up to 6 tethers.
+- When two tethered items are separated from each other by force, the tether will break.
+- You can place up to 6 sticky mines.
+- Sticky mines will attach to the first thing they touch.
+- Nothing can trigger the mines explosion except your command.
+
+[b]EASTER EGGS[/b]
+- [spoiler]Grapple the floor while your parachute is open to gain altitude.[/spoiler]
+- [spoiler]Grapple a moving object while your parachute is open to follow this object.[/spoiler]
+- [spoiler]Opening the wingsuit keeps your speed, making grappling hook really handy to take off.[/spoiler]
+- [spoiler]There is a secret key to remove both tethers and mines limits ;)[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- Sometimes trying to open the parachute after using wingsuit won't work. Land to fix.
+- The grappling rope might not be correcltly attached to both ends, visual bug only, the logic behind is fine.
+- Mines might sometimes stick with weird angle or weird position (inside object, or flying near it).
+- The game may start to have random lag spikes after using too many tethers. Restart map to fix.
+
+[b]DEV NOTES[/b]
+[quote=About this mod]I'm not sure if this was an actual request or just something I really wanted to do, anyway I had a lot of fun making it and testing it ^^ If you are not familiar with it, this mod is a huge reference to the Just Cause game series (partcularly JC3). Most of the abilities gathered here are improved versions of existing mutators, but I thought the improvements were worth making an entire mod for them :p
+The first element I worked on was the parachute. Taken from GoatZ, I did repaint it in black and removed the parachute drop when you close it (this was annoying and a potential lag source). Then I added some combines abilites with the hook to mimic as much as possible the JC3 behaviour like the fact the you will gain altitude when you grapple to the ground.
+Then came the wingsuit :D This part is actually 100% new, I used the hangglider model as little wings and coded from scratch a simplified "wingsuit-like" flight behaviour. I also enforced the camera to follow the goat in order to match a bit more the "plane mode" view used in JC3 for wingsuit flight.
+The grappling hook is actually two separate things: the first one is what you get from Uncle Goat that will drag your goat to a specific location, and the second one is from Tether Goat (Waste of Space) to link two items together. For the grapple part I didn't change many thing of it's behaviour, I only added a rope model instead of the tongue and linked it to the tool on the goat back. I also enforced hovering when you try to drag yourself to a far point, because the default grapling hook would just drag you on a few meters and stop as soon as you hit the floor :/
+About tethers, the original electric link have been replaced by the rope, the mechanism have been extended to accept attachment on almost any surface (this was quite hard and took a lot of time to tweak it correclty).
+Finally the sticky mines are modified Limb Ragdoller (Payday) sringes :p I kept the sticky ability and improved it to stick better on moving objects and large surfaces, and I added the explosive behavoir ^^
+[/quote]
